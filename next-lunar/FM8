@@ -1,0 +1,16 @@
+Men & women are enemies, with the enmity of the exploited for the parasite, the parasite for the exploited&mdash;at [present]<time| they are at the mercy of the advantage that each can take of the others sexual dependence&mdash;. The only point at which the interests of the sexes merge&mdash;is the sexual embrace.
+
+(set: $g to (font:'Courier New') + (color: grey))
+$g[
+{ 
+(if: $man is true)[Embrace a parasite [[sexually|FM11b]].]
+(else:)[[[Embrace|FM9]] the book like a lover.]
+}
+]
+
+
+(set: $g to (font:'Courier New') + (color: grey))
+
+$g[
+ (click: ?time)[The date is still 1914.]
+ ]

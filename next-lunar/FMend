@@ -1,0 +1,11 @@
+
+
+
+&mdash;Mina Loy, 1914
+
+(set: $g to (font:'Courier New') + (color: grey))
+$g[
+<a href="https://oncomouse.github.io/loy/feminist.html" target="_blank">Read the full text</a>.
+[[Begin again|FM1]].
+[[Try another text|0]].
+]

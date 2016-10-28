@@ -3,11 +3,14 @@ Excellent!
 
 When you return to the table of contents, you will choose a text to play through.
 
-Your goal is to make it to the end of the text, which is marked by Mina Loy's signature line.
+Your goal is to make it to the end of the text, which is marked by [Mina Loy's signature line]<sig|. ] 
+==>
+(mouseover: ?sig)[&mdash;Mina Loy, (Year)
+]
+<==
+$g[I, your 21st century narrator, may appear along the way. You'll know it's me when the text looks like this. Otherwise, when the text looks] like this, $g[you are reading Loy's words. 
 
-I, your 21st century narrator, may appear along the way. You'll know it's me when the text looks like this. Otherwise, when the text looks] like this, $g[you are reading Loy's words. 
-
-You might learn things along the [way]<reveal|. (click: ?reveal)[Or you might destroy the world.]
+You might learn things as you [go]<reveal|. (click: ?reveal)[Or you might destroy the world.]
 
 Click [[here|0]] to return to the table of contents and choose a text.
 ]

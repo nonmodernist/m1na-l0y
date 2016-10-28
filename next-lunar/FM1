@@ -1,0 +1,9 @@
+The feminist movement as at |time>[present] instituted is
+<span style="font-size:40px">[[Inadequate|FM2]]</span>
+
+
+(set: $g to (font:'Courier New') + (color: grey))
+
+$g[
+ (click: ?time)[The date is 1914.]
+ ]

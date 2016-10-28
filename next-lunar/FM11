@@ -1,0 +1,11 @@
+(set: $full to (history:) contains "FM11")(if: $full is true)[The value of man is assessed entirely according to his use or interest to the community, the value of woman, depends entirely on [[chance]], her success or insuccess in manoeuvering a man into taking the life-long responsibility of her&mdash; 
+The advantages of marrriage are too ridiculously ample&mdash;compared to all other trades&mdash;for under modern conditions a woman can accept preposterously luxurious support from a man (with-out return of any sort&mdash;even offspring)&mdash;as a thank offering for her virginity
+The woman who has not succeeded in striking that advantageous bargain&mdash;is prohibited from any but surreptitious re-action to Life-stimuli&mdash;<span style="font-size:25px">& [[entirely|all]] **<u>debarred</u>**</span> <span style="font-size:40px">[[maternity.|FM12]]</span>
+Every woman has a right to maternity&mdash;
+Every woman of superior intelligence should realize her race-responsibility, in producing children in adequate proportion to the unfit or degenerate members of her sex&mdash;
+](else:)[The value of man is assessed entirely according to his use or interest to the community, the value of woman, depends entirely on [[chance]], her success or insuccess in manoeuvering a man into taking the life-long responsibility of her[&mdash;]<reveal| (click: ?reveal)[ 
+The advantages of marrriage are too ridiculously ample&mdash;compared to all other trades&mdash;for under modern conditions a woman can accept preposterously luxurious support from a man (with-out return of any sort&mdash;even offspring)&mdash;as a thank offering for her virginity
+The woman who has not succeeded in striking that advantageous bargain&mdash;is prohibited from any but surreptitious re-action to Life-stimuli&mdash;<span style="font-size:25px">& [[entirely|all]] **<u>debarred</u>**</span> <span style="font-size:40px">[[maternity.|FM12]]</span>
+Every woman has a right to maternity&mdash;
+Every woman of superior intelligence should realize her race-responsibility, in producing children in adequate proportion to the unfit or degenerate members of her sex&mdash;
+]]

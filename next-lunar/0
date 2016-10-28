@@ -1,18 +1,14 @@
-<a href="http://mina-loy.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Mina_loy.jpg" width="500" alt="Mina Loy"></a>
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Mina_loy.jpg" width="500" alt="Mina Loy">
 
 Choose a text:
 [[Feminist Manifesto|FM1]]
-<!--[[Aphorisms on Futurism|AF1]]
+<!--[[Aphorisms on Futurism|AF1]] -->
 
 
-TO DO: 
-- change link hover color to black?
-- 
-
-
--->
 (set: $g to (font:'Courier New') + (color: grey))
 $g[
 [[Learn]] how to play.
+<a href="http://mina-loy.com/" target="_blank">Return</a> to Digital Mina Loy.
 ]
+

@@ -1,0 +1,4 @@
+{ (if: $man is true)[
+The man who lives a life in which his activities conform to a social code which is a protectorate of the feminine element&mdash;&mdash;&mdash;is no longer <span style="font-size:25px")>[[masculine|FM8]]</span>]
+(else:)[The man who lives a life in which his activities conform to a social code which is a protectorate of the feminine element&mdash;&mdash;&mdash;is no longer <span style="font-size:25px")>[[masculine|FM7]]</span>]
+}

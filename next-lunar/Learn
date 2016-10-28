@@ -1,0 +1,7 @@
+(set: $g to (font:'Courier New') + (color: grey)) $g[
+This is an interactive text adventure game based on the works of Mina Loy.
+
+It works through a series of hyperlinks on which you can click.
+
+Try clicking on [[this one|Learn2]].
+]

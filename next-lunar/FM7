@@ -1,0 +1,16 @@
+(set: $full to (history:) contains "FM7")(if: $full is true)[The women who adapt themselves to a theoretical valuation of their sex as a <span style="font-size:25px">[[relative]] [[impersonality]]</span>, are not yet <span style="font-size:25px">[[Feminine]]</span>
+Leave off looking to men to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] are <span style="font-size:25px">[[not|FM5]]</span> &mdash;seek within yourselves to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] <span style="font-size:25px"><u>are</u></span> 
+As conditions are at [present]<time| constituted&mdash;you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] have the choice between <span style="font-size:40px">[[Parasitism|FM8]], & <a href="http://mina-loy.com/futurism/the-sacred-prostitute/" target="_blank">Prostitution</a></span> <span style="font-size:25px">&mdash;or [[Negation]]</span>
+](else:)[
+The women who adapt themselves to a theoretical valuation of their sex as a <span style="font-size:25px">[[relative]] [[impersonality]]</span>, are not yet <span style="font-size:25px">[[Feminine]]</span>
+Leave off looking to men to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] are <span style="font-size:25px">[[not|FM5]]</span> &mdash;seek within yourselves to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] [<span style="font-size:25px"><u>are</u></span>]<reveal| (click: ?reveal)[
+As conditions are at [present]<time| constituted&mdash;you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] have the choice between <span style="font-size:40px">[[Parasitism|FM8]], & <a href="http://mina-loy.com/futurism/the-sacred-prostitute/" target="_blank">Prostitution</a></span> <span style="font-size:25px">&mdash;or [[Negation]]</span>]
+]
+
+
+
+(set: $g to (font:'Courier New') + (color: grey))
+
+$g[
+ (click: ?time)[The date is 1914.]
+ ]

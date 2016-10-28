@@ -1,8 +1,4 @@
-<!-- do something random here - roll a die and if it's 3 then you go to demolition, if 1 then the book burns up in your hand -->
-(set: $full to (history:) contains "FM12")
-(if: $full is true)[
-
-Each child of a superior woman should be the result of a definite period of psychic development in her life&mdash;& not necessarily of a possibly irksome & outworn continuance of an alliance&mdash;spontaneously adapted for vital creation in the beginning but not necessarily harmoniously balanced as the parties to it&mdash;follow their individual lines of personal evolution&mdash;
+<!-- do something random here - roll a die and if it's 3 then you go to demolition, if 1 then the book burns up in your hand -->(set: $full to (history:) contains "FM12") (if: $full is true)[Each child of a superior woman should be the result of a definite period of psychic development in her life&mdash;& not necessarily of a possibly irksome & outworn continuance of an alliance&mdash;spontaneously adapted for vital creation in the beginning but not necessarily harmoniously balanced as the parties to it&mdash;follow their individual lines of personal evolution&mdash;
 For the harmony of the race, each individual should be the expression of an easy & ample interpenetration of the male & female temperaments&mdash;free of stress
 Woman must become more responsible for the child than man&mdash;
 Women must destroy in themselves, the desire to be love&mdash;
@@ -18,11 +14,7 @@ courage, & abundant health the outcome of sound nerves—
 Another great illusion is that woman must use all her
 introspective and clear-sightedness & unbiassed bravery to
 destroy—for the sake of her [[self|you]] [[respect|FMend]] is the impurity of sex
-the realization in defiance of superstition that there is [[nothing]] [[impure]] [[in]] [[sex]]—except in the mental attitude to it—will constitute an incalculable & wider social regeneration than it is possible for our generation to imagine.
-
-]
-(else:)[
-Each child of a superior woman should be the result of a definite period of psychic development in her life&mdash;& not necessarily of a possibly irksome & outworn continuance of an alliance&mdash;spontaneously adapted for vital creation in the beginning but not necessarily harmoniously balanced as the parties to it&mdash;follow their individual lines of personal evolution[&mdash;]<reveal1| (click: ?reveal1)[
+the realization in defiance of superstition that there is [[nothing]] [[impure]] [[in]] [[sex]]—except in the mental attitude to it—will constitute an incalculable & wider social regeneration than it is possible for our generation to imagine.](else:)[Each child of a superior woman should be the result of a definite period of psychic development in her life&mdash;& not necessarily of a possibly irksome & outworn continuance of an alliance&mdash;spontaneously adapted for vital creation in the beginning but not necessarily harmoniously balanced as the parties to it&mdash;follow their individual lines of personal evolution[&mdash;]<reveal1| (click: ?reveal1)[
 For the harmony of the race, each individual should be the expression of an easy & ample interpenetration of the male & female temperaments&mdash;free of stress
 Woman must become more responsible for the child than man[&mdash;]<reveal2| ] (click: ?reveal2)[
 Women must destroy in themselves, the desire to be loved[&mdash;]<reveal6| ] (click: ?reveal6)[
@@ -31,7 +23,7 @@ his attention from her to another woman
 The desire for comfortable protection instead of an intelligent
 curiosity & courage in meeting & resisting the pressure of life
 sex or so called love must be reduced to its initial element[,]<reveal3| ] (click: ?reveal3)[
-honour, grief, sentimentality, pride and & consequently jealousy must be detached from it[.]<reveal4| ] (click: ?reveal4)[
+honour, grief, sentimentality, pride & consequently jealousy must be detached from it[.]<reveal4| ] (click: ?reveal4)[
 Woman for her happiness must retain her deceptive fragility of
 appearance, combined with indomitable will, irreducible
 courage, & abundant health the outcome of sound nerves[—]<reveal5| ] (click: ?reveal5)[ 

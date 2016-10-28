@@ -1,0 +1,284 @@
+<tw-storydata name="Mina Loy" startnode="1" creator="Twine" creator-version="2.0.11" ifid="9DC150A5-59F8-4346-8AC8-F895FD0500F9" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">a, tw-link {
+	text-decoration: underline;
+	color: #000000;
+	font-weight: bold;
+}
+
+tw-link.visited, a.visited {
+	color: #000000;
+}
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+</script><tw-passagedata pid="1" name="0" tags="" position="476,22">&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/0b/Mina_loy.jpg&quot; width=&quot;500&quot; alt=&quot;Mina Loy&quot;&gt;
+
+Choose a text:
+[[Feminist Manifesto|FM1]]
+&lt;!--[[Aphorisms on Futurism|AF1]] --&gt;
+
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+[[Learn]] how to play.
+&lt;a href=&quot;http://mina-loy.com/&quot; target=&quot;_blank&quot;&gt;Return&lt;/a&gt; to Digital Mina Loy.
+]</tw-passagedata>
+<tw-passagedata pid="2" name="FM2" tags="" position="732,106">&lt;span style=&quot;font-size:25px&quot;&gt;[[Women|FM3]]&lt;/span&gt; if you(if: $name is not 0)[, $name,] (else-if: $name is 0)[]want to realise yourselves&amp;mdash;you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] are on the eve of a devastating psychological upheaval&amp;mdash;all your pet illusions must be unmasked&amp;mdash;the lies of centuries have got to go&amp;mdash;are you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] prepared for the &lt;span style=&quot;font-size:25px&quot;&gt;[[Wrench]]&lt;/span&gt;&amp;mdash;? There is no half-measure&amp;mdash;NO scratching on the surface of the rubbish heap of tradition, will bring about &lt;span style=&quot;font-size:25px&quot;&gt;[[Reform]]&lt;/span&gt;, the only method is &lt;span style=&quot;font-size:25px&quot;&gt;[[Absolute]] [[Demolition]]&lt;/span&gt;</tw-passagedata>
+<tw-passagedata pid="3" name="FM1" tags="" position="601.0001,76">The feminist movement as at |time&gt;[present] instituted is
+&lt;span style=&quot;font-size:40px&quot;&gt;[[Inadequate|FM2]]&lt;/span&gt;
+
+
+
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+
+$g[
+ (click: ?time)[The date is 1914.]
+ ]</tw-passagedata>
+<tw-passagedata pid="4" name="FM3" tags="" position="472,406">Cease to place your confidence in economic legislation, vice-crusades &amp; uniform education&amp;mdash;you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] are glossing over &lt;span style=&quot;font-size:25px&quot;&gt;[[Reality]]&lt;/span&gt;.
+Professional &amp; commercial careers are opening up for you&amp;mdash;
+&lt;span style=&quot;font-size:40px&quot;&gt;[[Is]] [[that]] [[all]] [[you]] [[want|FM4]]?&lt;/span&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="5" name="Wrench" tags="" position="859,41">&lt;!--the effect of a wrench - loud sound, violent image, something typical futurism
+
+&lt;!--or a literal image of a wrench? lol</tw-passagedata>
+<tw-passagedata pid="6" name="Reform" tags="" position="984,108">&lt;!--links to major reform issues of 1914 - suffrage</tw-passagedata>
+<tw-passagedata pid="7" name="Absolute" tags="" position="1109.0001,208">&lt;!--text message here</tw-passagedata>
+<tw-passagedata pid="8" name="Demolition2" tags="narration" position="754,272">(alert:&quot;You have demolished the book.&quot;)
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+
+$g[Reconstruct the book with [[magic|FM3]].]</tw-passagedata>
+<tw-passagedata pid="9" name="Reality" tags="" position="404,250">??? surrealism?</tw-passagedata>
+<tw-passagedata pid="10" name="Is" tags="" position="338,375">&lt;a href=&quot;http://www.twitter.com/M1naL0y&quot; target=&quot;_blank&quot;&gt;is only&lt;/a&gt;
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+Go [[back|FM3]].
+]</tw-passagedata>
+<tw-passagedata pid="11" name="that" tags="" position="420,547">&lt;a href=&quot;http://www.twitter.com/M1naL0y&quot; target=&quot;_blank&quot;&gt;that you live&lt;/a&gt;
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+Go [[back|FM3]].
+]</tw-passagedata>
+<tw-passagedata pid="12" name="all" tags="" position="276,537">text message</tw-passagedata>
+<tw-passagedata pid="13" name="you" tags="narration" position="689,516">&lt;!-- set name, then call name after every instance of &quot;you&quot; throughout the rest of the game --&gt;
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+(set: $name to (prompt: &quot;Your name, please:&quot;))
+$g[(set: $twelve to (history:) contains &quot;FM12&quot;)
+(if: $twelve is true)[Okay, $name. Let&#39;s [[continue|FM12]] reading.](else:)[Okay, $name. Let&#39;s [[continue|FM4]] reading.
+]
+
+]</tw-passagedata>
+<tw-passagedata pid="14" name="FM4" tags="" position="841.0001,397">And if you(if: $name is not 0)[, $name,] (else-if: $name is 0)[]honestly desire to find your level without prejudice&amp;mdash;be &lt;span style=&quot;font-size:40px&quot;&gt;[[Brave]]&lt;/span&gt; &amp; deny at the outset&amp;mdash;that pathetic clap-trap war cry &lt;span style=&quot;font-size:40px&quot;&gt;&lt;a href=&quot;http://digital.library.upenn.edu/women/_generate/1901-2000.html&quot; target=&quot;_blank&quot;&gt;&#39;&#39;Woman&#39;&#39;&lt;/a&gt; [[is|FM5]] &lt;b&gt;&lt;u&gt;the&lt;/u&gt;&lt;/b&gt; [[equal|FM5]] [[of]] [[man]]&lt;/span&gt;&amp;mdash;
+
+</tw-passagedata>
+<tw-passagedata pid="15" name="AF1" tags="af" position="288,0">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="16" name="Brave" tags="" position="1034,380">&lt;!-- text message here --&gt;</tw-passagedata>
+<tw-passagedata pid="17" name="FM5" tags="" position="1060.0001,630">==&gt;&lt;=
+for
+&lt;==
+She is &lt;span style=&quot;font-size:40px&quot;&gt;[[NOT|FM6]]!&lt;/span&gt;</tw-passagedata>
+<tw-passagedata pid="18" name="of" tags="" position="1064,505">&lt;!--link out to twitter --&gt;&lt;a href=&quot;http://www.twitter.com/M1naL0y&quot; target=&quot;_blank&quot;&gt;of expansion&lt;/a&gt;
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+Go [[back|FM4]].
+]</tw-passagedata>
+<tw-passagedata pid="19" name="FM6" tags="" position="935.0002,736">{ (if: $man is true)[
+The man who lives a life in which his activities conform to a social code which is a protectorate of the feminine element&amp;mdash;&amp;mdash;&amp;mdash;is no longer &lt;span style=&quot;font-size:25px&quot;)&gt;[[masculine|FM8]]&lt;/span&gt;]
+(else:)[The man who lives a life in which his activities conform to a social code which is a protectorate of the feminine element&amp;mdash;&amp;mdash;&amp;mdash;is no longer &lt;span style=&quot;font-size:25px&quot;)&gt;[[masculine|FM7]]&lt;/span&gt;]
+}
+
+</tw-passagedata>
+<tw-passagedata pid="20" name="FM7" tags="" position="1023,865">(set: $full to (history:) contains &quot;FM7&quot;)(if: $full is true)[The women who adapt themselves to a theoretical valuation of their sex as a &lt;span style=&quot;font-size:25px&quot;&gt;[[relative]] [[impersonality]]&lt;/span&gt;, are not yet &lt;span style=&quot;font-size:25px&quot;&gt;[[Feminine]]&lt;/span&gt;
+Leave off looking to men to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] are &lt;span style=&quot;font-size:25px&quot;&gt;[[not|FM5]]&lt;/span&gt; &amp;mdash;seek within yourselves to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] &lt;span style=&quot;font-size:25px&quot;&gt;&lt;u&gt;are&lt;/u&gt;&lt;/span&gt; 
+As conditions are at [present]&lt;time| constituted&amp;mdash;you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] have the choice between &lt;span style=&quot;font-size:40px&quot;&gt;[[Parasitism|FM8]], &amp; &lt;a href=&quot;http://mina-loy.com/futurism/the-sacred-prostitute/&quot; target=&quot;_blank&quot;&gt;Prostitution&lt;/a&gt;&lt;/span&gt; &lt;span style=&quot;font-size:25px&quot;&gt;&amp;mdash;or [[Negation]]&lt;/span&gt;
+](else:)[
+The women who adapt themselves to a theoretical valuation of their sex as a &lt;span style=&quot;font-size:25px&quot;&gt;[[relative]] [[impersonality]]&lt;/span&gt;, are not yet &lt;span style=&quot;font-size:25px&quot;&gt;[[Feminine]]&lt;/span&gt;
+Leave off looking to men to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] are &lt;span style=&quot;font-size:25px&quot;&gt;[[not|FM5]]&lt;/span&gt; &amp;mdash;seek within yourselves to find out what you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] [&lt;span style=&quot;font-size:25px&quot;&gt;&lt;u&gt;are&lt;/u&gt;&lt;/span&gt;]&lt;reveal| (click: ?reveal)[
+As conditions are at [present]&lt;time| constituted&amp;mdash;you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] have the choice between &lt;span style=&quot;font-size:40px&quot;&gt;[[Parasitism|FM8]], &amp; &lt;a href=&quot;http://mina-loy.com/futurism/the-sacred-prostitute/&quot; target=&quot;_blank&quot;&gt;Prostitution&lt;/a&gt;&lt;/span&gt; &lt;span style=&quot;font-size:25px&quot;&gt;&amp;mdash;or [[Negation]]&lt;/span&gt;]
+]
+
+
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+
+$g[
+ (click: ?time)[The date is 1914.]
+ ]</tw-passagedata>
+<tw-passagedata pid="21" name="man" tags="" position="851,577">(set: $man to (confirm: &quot;Would you like to identify as a man at this time?&quot;))
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+{ (if: $man is true)[Let&#39;s [[skip ahead|FM6]] to the parts that interest you.]
+(else:)[Good choice. Let&#39;s [[continue reading|FM4]].]
+}
+]</tw-passagedata>
+<tw-passagedata pid="22" name="FM8" tags="" position="853,1074">Men &amp; women are enemies, with the enmity of the exploited for the parasite, the parasite for the exploited&amp;mdash;at [present]&lt;time| they are at the mercy of the advantage that each can take of the others sexual dependence&amp;mdash;. The only point at which the interests of the sexes merge&amp;mdash;is the sexual embrace.
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+{ 
+(if: $man is true)[Embrace a parasite [[sexually|FM11b]].]
+(else:)[[[Embrace|FM9]] the book like a lover.]
+}
+]
+
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+
+$g[
+ (click: ?time)[The date is still 1914.]
+ ]</tw-passagedata>
+<tw-passagedata pid="23" name="FM11b" tags="" position="810.0002,821">The value of man is assessed entirely according to his use or interest to the community,
+
+(color: grey)[Are you interesting?
+
+[[Of course|Demolition2]].
+[[Not really|0]].
+]</tw-passagedata>
+<tw-passagedata pid="24" name="FM9" tags="" position="604,991">The first illusion it is to your interest to demolish is the division of women into two classes&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;span style=&quot;font-size:25px&quot;&gt;[[the mistress]], &amp; [[the mother]]&lt;/span&gt; every well-balanced &amp; developed woman knows that is not true, Nature has endowed the complete woman with a faculty for expressing herself through [[all]] her functions&amp;mdash;there are &lt;span style=&quot;font-size:25px&quot;&gt;[[no|FM10]] [[restrictions]]&lt;/span&gt; the woman who is so incompletely evolved as to be un-self-conscious in sex, will prove a restrictive influence on the temperamental expansion of the next generation; the woman who is a poor mistress will be an incompetent mother&amp;mdash;an inferior mentality&amp;mdash;&amp; will enjoy an inadequate apprehension of &lt;span style=&quot;font-size:40px&quot;&gt;[[Life|FM10]]&lt;/span&gt;.</tw-passagedata>
+<tw-passagedata pid="25" name="relative" tags="" position="1148,790">go [[back|FM7]]</tw-passagedata>
+<tw-passagedata pid="26" name="impersonality" tags="" position="985,1047">????</tw-passagedata>
+<tw-passagedata pid="27" name="Feminine" tags="" position="1110.0001,1052">????</tw-passagedata>
+<tw-passagedata pid="28" name="Negation" tags="" position="1166,927">go [[back|FM7]]</tw-passagedata>
+<tw-passagedata pid="29" name="Demolition" tags="" position="898,233">&lt;!--futurist depiction of destruction --&gt;
+
+(text-style: &quot;shudder&quot;)[ [[&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/4/45/Blast2.jpg&quot;&gt;|Demolition2]]]</tw-passagedata>
+<tw-passagedata pid="30" name="the mother" tags="" position="751,948">&lt;a href=&quot;https://oncomouse.github.io/loy/parturition.html&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://s-media-cache-ak0.pinimg.com/originals/e4/29/73/e4297365d7379cb0421bdf8e75d6e469.jpg&quot;&gt;&lt;/a&gt;</tw-passagedata>
+<tw-passagedata pid="31" name="FM10" tags="" position="408,945">To obtain results you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] must make sacrifices &amp; the first &amp; greatest sacrifice you(if: $name is not 0)[, $name,] (else-if: $name is 0)[] have to make is of your &quot;&lt;u&gt;virtue&lt;/u&gt;&quot; (click: &quot;virtue&quot;)[
+The fictitous value of woman as identified with her physical purity&amp;mdash;is too easy a stand-by&amp;mdash;&amp;mdash; rendering her lethargic in the acquisition of intrinsic merits of character by which she could obtain a concrete value&amp;mdash; therefore, the first self-enforced law for the female sex, as a protection against the man made bogey of virtue&amp;mdash;which is the principal instrument of her subjection, would be the [[unconditional]] surgical [[destruction|FM11]] [[of]] [[virginity]] through-out the female population at puberty&amp;mdash;.]</tw-passagedata>
+<tw-passagedata pid="32" name="restrictions" tags="" position="620,719">&lt;!-- code: if something is false, etc etc. --&gt;</tw-passagedata>
+<tw-passagedata pid="33" name="FM11" tags="" position="361.0001,1175">(set: $full to (history:) contains &quot;FM11&quot;)(if: $full is true)[The value of man is assessed entirely according to his use or interest to the community, the value of woman, depends entirely on [[chance]], her success or insuccess in manoeuvering a man into taking the life-long responsibility of her&amp;mdash; 
+The advantages of marrriage are too ridiculously ample&amp;mdash;compared to all other trades&amp;mdash;for under modern conditions a woman can accept preposterously luxurious support from a man (with-out return of any sort&amp;mdash;even offspring)&amp;mdash;as a thank offering for her virginity
+The woman who has not succeeded in striking that advantageous bargain&amp;mdash;is prohibited from any but surreptitious re-action to Life-stimuli&amp;mdash;&lt;span style=&quot;font-size:25px&quot;&gt;&amp; [[entirely|all]] **&lt;u&gt;debarred&lt;/u&gt;**&lt;/span&gt; &lt;span style=&quot;font-size:40px&quot;&gt;[[maternity.|FM12]]&lt;/span&gt;
+Every woman has a right to maternity&amp;mdash;
+Every woman of superior intelligence should realize her race-responsibility, in producing children in adequate proportion to the unfit or degenerate members of her sex&amp;mdash;
+](else:)[The value of man is assessed entirely according to his use or interest to the community, the value of woman, depends entirely on [[chance]], her success or insuccess in manoeuvering a man into taking the life-long responsibility of her[&amp;mdash;]&lt;reveal| (click: ?reveal)[ 
+The advantages of marrriage are too ridiculously ample&amp;mdash;compared to all other trades&amp;mdash;for under modern conditions a woman can accept preposterously luxurious support from a man (with-out return of any sort&amp;mdash;even offspring)&amp;mdash;as a thank offering for her virginity
+The woman who has not succeeded in striking that advantageous bargain&amp;mdash;is prohibited from any but surreptitious re-action to Life-stimuli&amp;mdash;&lt;span style=&quot;font-size:25px&quot;&gt;&amp; [[entirely|all]] **&lt;u&gt;debarred&lt;/u&gt;**&lt;/span&gt; &lt;span style=&quot;font-size:40px&quot;&gt;[[maternity.|FM12]]&lt;/span&gt;
+Every woman has a right to maternity&amp;mdash;
+Every woman of superior intelligence should realize her race-responsibility, in producing children in adequate proportion to the unfit or degenerate members of her sex&amp;mdash;
+]]</tw-passagedata>
+<tw-passagedata pid="34" name="unconditional" tags="" position="226,930">&lt;!-- show something behind the scenes, a set of conditional scripts or something displaying as code --&gt;</tw-passagedata>
+<tw-passagedata pid="35" name="virginity" tags="" position="236,1074">??</tw-passagedata>
+<tw-passagedata pid="36" name="chance" tags="" position="367,1441">&lt;!-- do something with a dice roll here
+
+ --&gt;
+(set: $chance to (random:1,6))
+(if: $chance is 1)[You have died from consumption.]
+(if: $chance is 3)[Congratulations! You have secured a [[husband|sucks]].]
+(if: $chance is 6)[Congratulations! You have secured a [[husband|died]].]
+(if: $chance is 2 or is 4 or is 5)[Sorry, you failed to secure a husband. [[Sucks for you|FM11]].]</tw-passagedata>
+<tw-passagedata pid="37" name="FM12" tags="" position="672,1133">&lt;!-- do something random here - roll a die and if it&#39;s 3 then you go to demolition, if 1 then the book burns up in your hand --&gt;(set: $full to (history:) contains &quot;FM12&quot;) (if: $full is true)[Each child of a superior woman should be the result of a definite period of psychic development in her life&amp;mdash;&amp; not necessarily of a possibly irksome &amp; outworn continuance of an alliance&amp;mdash;spontaneously adapted for vital creation in the beginning but not necessarily harmoniously balanced as the parties to it&amp;mdash;follow their individual lines of personal evolution&amp;mdash;
+For the harmony of the race, each individual should be the expression of an easy &amp; ample interpenetration of the male &amp; female temperaments&amp;mdash;free of stress
+Woman must become more responsible for the child than man&amp;mdash;
+Women must destroy in themselves, the desire to be love&amp;mdash;
+The feeling that it is a personal insult when a man transfers
+his attention from her to another woman
+The desire for comfortable protection instead of an intelligent
+curiosity &amp; courage in meeting &amp; resisting the pressure of life
+sex or so called love must be reduced to its initial element,
+honour, grief, sentimentality, pride and &amp; consequently jealousy must be detached from it.
+Woman for her happiness must retain her deceptive fragility of
+appearance, combined with indomitable will, irreducible
+courage, &amp; abundant health the outcome of sound nerves—
+Another great illusion is that woman must use all her
+introspective and clear-sightedness &amp; unbiassed bravery to
+destroy—for the sake of her [[self|you]] [[respect|FMend]] is the impurity of sex
+the realization in defiance of superstition that there is [[nothing]] [[impure]] [[in]] [[sex]]—except in the mental attitude to it—will constitute an incalculable &amp; wider social regeneration than it is possible for our generation to imagine.](else:)[Each child of a superior woman should be the result of a definite period of psychic development in her life&amp;mdash;&amp; not necessarily of a possibly irksome &amp; outworn continuance of an alliance&amp;mdash;spontaneously adapted for vital creation in the beginning but not necessarily harmoniously balanced as the parties to it&amp;mdash;follow their individual lines of personal evolution[&amp;mdash;]&lt;reveal1| (click: ?reveal1)[
+For the harmony of the race, each individual should be the expression of an easy &amp; ample interpenetration of the male &amp; female temperaments&amp;mdash;free of stress
+Woman must become more responsible for the child than man[&amp;mdash;]&lt;reveal2| ] (click: ?reveal2)[
+Women must destroy in themselves, the desire to be loved[&amp;mdash;]&lt;reveal6| ] (click: ?reveal6)[
+The feeling that it is a personal insult when a man transfers
+his attention from her to another woman
+The desire for comfortable protection instead of an intelligent
+curiosity &amp; courage in meeting &amp; resisting the pressure of life
+sex or so called love must be reduced to its initial element[,]&lt;reveal3| ] (click: ?reveal3)[
+honour, grief, sentimentality, pride &amp; consequently jealousy must be detached from it[.]&lt;reveal4| ] (click: ?reveal4)[
+Woman for her happiness must retain her deceptive fragility of
+appearance, combined with indomitable will, irreducible
+courage, &amp; abundant health the outcome of sound nerves[—]&lt;reveal5| ] (click: ?reveal5)[ 
+Another great illusion is that woman must use all her
+introspective and clear-sightedness &amp; unbiassed bravery to
+destroy—for the sake of her [[self|you]] [[respect|FMend]] is the impurity of sex
+the realization in defiance of superstition that there is [[nothing]] [[impure]] [[in]] [[sex]]—except in the mental attitude to it—will constitute an incalculable &amp; wider social regeneration than it is possible for our generation to imagine.
+]
+]
+
+
+</tw-passagedata>
+<tw-passagedata pid="38" name="FMend" tags="" position="513,1366">
+
+===&gt;&lt;=
+&amp;mdash;Mina Loy, 1914
+&lt;=
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+&lt;a href=&quot;https://oncomouse.github.io/loy/feminist.html&quot; target=&quot;_blank&quot;&gt;Read&lt;/a&gt; the full text.
+[[Begin|FM1]] again.
+[[Try|0]] another.
+]</tw-passagedata>
+<tw-passagedata pid="39" name="nothing" tags="" position="649,1342">(color: &quot;white&quot;)[*This page left intentionally blank.*]</tw-passagedata>
+<tw-passagedata pid="40" name="impure" tags="" position="804,1200">if history contains demolition, something bad happens</tw-passagedata>
+<tw-passagedata pid="41" name="in" tags="" position="781,1335">&lt;a href=&quot;http://www.twitter.com/M1naL0y&quot; target=&quot;_blank&quot;&gt;in the Future&lt;/a&gt;
+
+(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+Go [[back|FM12]].
+]</tw-passagedata>
+<tw-passagedata pid="42" name="sex" tags="" position="576,1494">something racy</tw-passagedata>
+<tw-passagedata pid="43" name="the mistress" tags="" position="398,820">???</tw-passagedata>
+<tw-passagedata pid="44" name="died" tags="" position="357,1594">(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[Unfortunately, your husband [sucks]&lt;reveal1|.
+(click: ?reveal1)[Fortunately, he&#39;s kind of [old]&lt;reveal2|.]
+(click: ?reveal2)[After 2 years of tedious marriage, he [dies]&lt;reveal3| ]  (click: ?reveal3)[and leaves you A LOT of [money]&lt;reveal4|.] (click: ?reveal4)[You become a wealthy patron of the [arts]&lt;reveal5| ] (click: ?reveal5)[and take a beautiful young painter as your [[lover|sex]].]
+]
+
+
+
+</tw-passagedata>
+<tw-passagedata pid="45" name="sucks" tags="" position="205,1445">(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[Unfortunately, your husband sucks. You suffer him for the rest of your [[life|FM11]].]</tw-passagedata>
+<tw-passagedata pid="46" name="Learn" tags="" position="291.0001,125">(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+This is an interactive text adventure game based on the works of Mina Loy.
+
+It works through a series of hyperlinks on which you can click.
+
+Try clicking on [[this one|Learn2]].
+
+
+]</tw-passagedata>
+<tw-passagedata pid="47" name="Learn2" tags="" position="160,250">(set: $g to (font:&#39;Courier New&#39;) + (color: grey))
+$g[
+Great!
+
+You can also click on images throughout the game.
+
+Try clicking on this assemblage by Mina Loy:
+
+[[&lt;img src=&quot;https://s-media-cache-ak0.pinimg.com/736x/a2/7d/b5/a27db585025391c37b0ac7436e7d7489.jpg&quot;|Learn3]]
+
+
+]</tw-passagedata>
+<tw-passagedata pid="48" name="Learn3" tags="" position="160,400">(set: $g to (font:&#39;Courier New&#39;) + (color: grey)) $g[
+Excellent!
+
+When you return to the table of contents, you will choose a text to play through.
+
+Your goal is to make it to the end of the text, which is marked by [Mina Loy&#39;s signature line]&lt;sig|. ] 
+==&gt;
+(mouseover: ?sig)[&amp;mdash;Mina Loy, (Year)
+]
+&lt;==
+$g[I, your 21st century narrator, may appear along the way. You&#39;ll know it&#39;s me when the text looks like this. Otherwise, when the text looks] like this, $g[you are reading Loy&#39;s words. 
+
+You might learn things as you [go]&lt;reveal|. (click: ?reveal)[Or you might destroy the world.]
+
+Click [[here|0]] to return to the table of contents and choose a text.
+]
+</tw-passagedata>
+</tw-storydata>

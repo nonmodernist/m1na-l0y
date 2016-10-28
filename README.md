@@ -1,2 +1,2 @@
 # mina-loy
-All projects for Digital Mina Loy
+All projects for <a href="http://mina-loy.com">Digital Mina Loy</a>
